@@ -5,7 +5,7 @@
  */
 export const crearCartaHTML = (carta) => {
   if (!carta) {
-    throw new Error("La carta es necesaria");
+    throw new Error("La carta es siempre necesaria");
   }
   // <img class="carta" src="assets/cartas/2C.png">
   const imgCarta = document.createElement("img");
