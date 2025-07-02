@@ -1,5 +1,6 @@
 import { crearCartaHTML } from "./crear-carta-html";
 import { pedirCarta } from "./pedir-carta";
+import { valorCarta } from "./valor-carta";
 
 /**
  * Turno de la computadora
